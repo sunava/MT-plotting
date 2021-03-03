@@ -1,0 +1,14 @@
+ae:
+  name: ue4bs
+fixedflow:
+  - BeliefStateCameraUpdater
+  - BeliefStateObjectSynchronization
+  - CollectionReader
+  - ImagePreprocessor
+  - PointCloudFilter
+  - BeliefStateSensorVisualizer
+  - BeliefStateSegmentationAnnotator
+  #- BeliefStateObjectHighlighter
+  - BeliefStatePoseRefinement
+CollectionReader:
+  camera_config_files: ['config_bs_unreal_vision.ini']

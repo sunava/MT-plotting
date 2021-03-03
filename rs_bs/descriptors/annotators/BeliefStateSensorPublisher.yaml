@@ -1,0 +1,8 @@
+annotator:
+  implementation: rs_BeliefStateSensorPublisher
+  name: BeliefStateSensorPublisher
+parameters:
+  useHDImages: true
+capabilities:
+  inputs: {}
+  outputs: {}

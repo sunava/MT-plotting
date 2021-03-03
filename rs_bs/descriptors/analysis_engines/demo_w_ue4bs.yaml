@@ -1,0 +1,18 @@
+ae:
+  name: demo_w_ue4bs
+fixedflow:
+  - CollectionReader
+  - ImagePreprocessor
+  - PointCloudFilter
+  - NormalEstimator
+  - PlaneAnnotator
+  - ImageSegmentationAnnotator
+  - PointCloudClusterExtractor
+  - ClusterMerger
+  - ClusterColorHistogramCalculator
+CollectionReader:
+  camera_config_files: ['config_bs_kinect_robot_without_tf_lookup.ini']
+RegionFilter:
+  enable_change_detection: false
+ClusterColorHistogramCalculator:
+  semantic_label: true

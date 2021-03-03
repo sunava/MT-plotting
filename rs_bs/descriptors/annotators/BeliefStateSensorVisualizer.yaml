@@ -1,0 +1,8 @@
+annotator:
+  implementation: rs_BeliefStateSensorVisualizer
+parameters:
+  otherCASId: 'mongo_w_ue4bs'
+  useHDImages: true
+capabilities:
+  inputs: {}
+  outputs: {}

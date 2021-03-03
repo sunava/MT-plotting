@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rin/cat_ws/src/rs_bs/cmake-build-debug/devel/setup.sh

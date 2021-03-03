@@ -1,0 +1,8 @@
+prefix=/home/rin/cat_ws/src/rs_bs/cmake-build-debug/devel
+
+Name: rs_bs
+Description: Description of rs_bs
+Version: 0.0.1
+Cflags: -I/home/rin/cat_ws/src/rs_bs/include
+Libs: -L${prefix}/lib 
+Requires: 

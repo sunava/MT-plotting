@@ -1,0 +1,10 @@
+annotator:
+  implementation: rs_BeliefStateObjectSynchronization
+  name: BeliefStateObjectSynchronization
+parameters:
+  otherCASId: mongo_w_ue4bs
+  delayInSecondsAfterSync: 2.0
+  clearObjectsInSimulationInInit: true
+capabilities:
+  inputs: {}
+  outputs: {}

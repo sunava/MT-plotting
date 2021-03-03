@@ -1,0 +1,9 @@
+annotator:
+  implementation: rs_BeliefStateCameraUpdater
+  name: BeliefStateCameraUpdater
+parameters:
+  bsCameraId: 'urobovision_camera'
+  otherCASId: 'mongo_w_ue4bs'
+capabilities:
+  inputs: {}
+  outputs: {}

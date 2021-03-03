@@ -1,0 +1,8 @@
+annotator:
+  implementation: rs_BeliefStateObjectHighlighter
+  name: BeliefStateObjectHighlighter
+parameters:
+  useHDImages: true
+capabilities:
+  inputs: {}
+  outputs: {}

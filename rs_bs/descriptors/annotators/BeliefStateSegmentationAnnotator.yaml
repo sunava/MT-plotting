@@ -1,0 +1,10 @@
+annotator:
+  implementation: rs_BeliefStateSegmentationAnnotator
+  name: BeliefStateSegmentationAnnotator
+parameters:
+  otherCASId: mongo_w_ue4bs
+  useHDImages: true
+  useHDObjectMaskForSegmentation: false
+capabilities:
+  inputs: {}
+  outputs: {}

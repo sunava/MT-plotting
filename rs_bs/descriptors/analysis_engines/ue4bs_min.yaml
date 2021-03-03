@@ -1,0 +1,12 @@
+ae:
+  name: ue4bs_min
+fixedflow:
+  - BeliefStateCameraUpdater
+  - CollectionReader
+  - ImagePreprocessor
+  - BeliefStateSensorVisualizer
+  - BeliefStateSceneRefinement
+CollectionReader:
+  camera_config_files: ['config_bs_unreal_vision.ini']
+BeliefStateCameraUpdater:
+  otherCASId: 'mongo_w_ue4bs_min'
